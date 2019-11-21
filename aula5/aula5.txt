@@ -1,0 +1,30 @@
+digitalWrite();  HIGH (1)    LOW (0)
+digitalRead();  HIGH (1)    LOW (0)
+
+digitalWrite(13,  !digitalRead(13));
+___________________________________
+switch case
+obs: só aceita trabalhar com variáveis do 
+        tipo inr e char
+
+sintaxe:
+
+switch (variável) {
+  case 1:
+  //código
+    break;
+
+case 2:
+  //código
+    break;
+
+default:
+  //código
+    break;
+}
+
+Obs: o default não é obrigatório
+
+
+
+
